@@ -3,6 +3,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+html {
+  font-size: 15px;
+}
+
 html,
 body {
   margin: 0;
@@ -10,3 +14,46 @@ body {
 }
 
 /* Add styles here! */
+main {
+  height: 100%;
+  background-color: darkgray;
+  border-top: 5px solid gray;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+strong {
+  color: green;
+}
+
+.intro-chunk, .card {
+  padding: 2rem;
+}
+
+.card {
+  background-color: white;
+  border-bottom: 5px solid gray;
+}
+
+.title {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.indented-heading {
+  background-color: orange;
+  border-bottom: 5px solid brown;
+
+  margin-left: -3rem;
+  margin-top: -1.5rem;
+  padding: 0.5rem;
+  padding-left: 3rem;
+}
+
+
+.max-width-wrapper {
+  max-width: 400px;
+  margin-inline: auto;
+}
